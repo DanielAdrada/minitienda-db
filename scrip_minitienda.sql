@@ -71,6 +71,7 @@ END//
 DELIMITER ;
 
 -- PRODUCTOS
+
      -- Insertar 
 DELIMITER //
 create procedure procInsertProduct(IN v_codigo VARCHAR(45), IN v_descripcion VARCHAR(100), IN v_cantidad INT, IN v_precio DOUBLE, IN v_prov_id INT, IN v_cat_id INT)
